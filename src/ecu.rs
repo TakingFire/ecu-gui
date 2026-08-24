@@ -26,7 +26,7 @@ pub struct EngineState {
     pub ve: u16,
     pub stft_correction: u16,
     pub ltft_correction: u16,
-    pub real_afr: u16,
+    pub real_afr: f32,
     pub afr_target: f32,
     pub toe_enrichment_multiplier: f32,
 

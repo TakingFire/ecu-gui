@@ -158,8 +158,8 @@ pub static PARAMETERS: &[EngineParameter] = &[
         danger_min: Some(12.0),
         danger_max: Some(16.0),
 
-        get: |e| e.real_afr as f32,
-        set: |e, v| e.real_afr = v as u16,
+        get: |e| e.real_afr,
+        set: |e, v| e.real_afr = v,
     },
     EngineParameter {
         name: "Target AFR",
